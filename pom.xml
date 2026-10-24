@@ -40,5 +40,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <url>http://3.83.103.158:8081/repository/maven-build-package/</url>
+    </repository>
+</distributionManagement>
 </project>
 
